@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import KakaoLoginComponent from './components/KakaoLoginComponent';
 import { Router } from 'react-router-dom';
+import LoginComponent from './components/LoginComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <KakaoLoginComponent></KakaoLoginComponent>
+    <LoginComponent></LoginComponent>
   </Router>
 );
 
